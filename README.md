@@ -39,7 +39,6 @@ If you cannot find suitable test data on this repository, please contact us on t
         * 'genome.fasta.fai': fasta index for 'genome.fasta'
         * 'transcriptome.fasta': coding sequencing from MT192765.1 genome (transcripts)
         * 'transcriptome.paf': PAF file for MT192765.1  genome
-        * 'contigs.fasta': contigs file obtained running Minia on sarscov2 paired-end sequencing reads files (see below)
         * 'genome.gtf': GTF for MT192765.1 genome
         * 'genome.gff3': GFF for MT192765.1 genome
         * 'genome.gff3.gz': bgzipped-version
