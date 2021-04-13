@@ -54,12 +54,17 @@ If you cannot find suitable test data on this repository, please contact us on t
             * 'test_unaligned.bam': unmapped BAM file created from 'test_1.fastq.gz' using GATK4 SamToFastq
         * bedgraph
             * 'test.bedgraph'
+        * fasta
+            * 'contigs.fasta' sarscov2 contigs obtained running SPAdes `--rnaviral`on sample1 of the [nf-core/viralrecon test-dataset](https://github.com/nf-core/test-datasets/tree/viralrecon/illumina/amplicon)
+            * 'scaffolds.fasta' sarscov2 scaffolds obtained running SPAdes `--rnaviral`on sample1 of the [nf-core/viralrecon test-dataset](https://github.com/nf-core/test-datasets/tree/viralrecon/illumina/amplicon)
         * fastq
             * 'test_{1,2}.fastq.gz' sarscov2 paired-end sequencing reads
             * 'test_{1,2}.2.fastq.gz‘: copies of the above reads
             * 'test_methylated_{1,2}.fastq.gz' sarscov2 paired-end bisulfite sequencing reads (generated with [Sherman](https://github.com/FelixKrueger/Sherman))
         * gatk
             * 'test.baserecalibrator.table': Recalibration table generated with gatk4 BaseRecalibrator from 'test_paired_end.sorted.bam', using 'test.vcf.gz' as known sites.
+        * gfa
+            * 'assembly.gfa' sarscov2 assembly obtained running SPAdes `--rnaviral`on sample1 of the [nf-core/viralrecon test-dataset](https://github.com/nf-core/test-datasets/tree/viralrecon/illumina/amplicon)
         * vcf
             * 'test.vcf', 'test2.vcf': generated from 'test_paired_end.sorted.bam' using bcftools mpileup, call and filter
             * 'test3.vcf': generated from 'test_single_end.sorted.bam' using bcftools mpileup, call and filter
